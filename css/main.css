@@ -109,7 +109,11 @@ body {
     margin-bottom: 10px;
   }
 }
-.card .plan .text p {
+
+.card .plan .text p:first-of-type {
+  font-weight: bold;
+}
+.card .plan .text p:last-of-type {
   margin-top: 7px;
   color: #babccb;
 }
